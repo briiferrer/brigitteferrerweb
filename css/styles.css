@@ -1,0 +1,280 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+    
+}
+
+p{
+    color: #8f8f8f 
+    
+}
+
+
+
+/* COntainers*/
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+
+
+/* Sections */
+
+.colored-section{
+    background-color: #ffd56b;
+    color: #000000;
+
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+.double-section{
+    background-color: #ffffff;
+    background-image: -webkit-linear-gradient(65deg, #ffd56b 50%, #ffffff 50%);
+  
+}
+
+
+
+
+/* Nav Bar */
+
+.navbar{
+    padding: 0 0 4,5rem;
+ }
+ 
+.navbar-brand{
+     padding: 4rem;
+     font-family: ubuntu;
+     font-size: 2.5rem;
+     font-weight: bold;
+     color: #ffffff;
+ }
+ 
+.nav-item{
+     padding: 0 18px;
+ }
+
+.nav-link{
+    font-size: 1,2rem;
+    font-family: Montserrat-light;
+    color: #ffffff;
+}
+
+
+
+
+/*-- Title - */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.top-container{
+    font-family: sans-serif;
+    padding: 10px;
+    
+}
+
+
+.title-name{
+
+    width: 40%;
+    position: relative;
+    margin: 0 auto 0 auto;
+    font-size: 50px;
+    line-height: 1;
+    font-family: 'Pacifico', cursive;
+    right: 170px;
+    top: 1px;
+}
+
+.title-sub1{
+
+    width: 50%;
+    position: relative;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+    line-height: 1;
+    font-family: 'sans-serif', cursive;
+    right: 100px;
+    padding-top: 5%;
+}
+
+.title-sub2{
+
+    width: 70%;
+    position: relative;
+    margin: 0 auto 0 auto;
+    font-size: 10px;
+    line-height: 1;
+    font-family: 'sans-serif',cursive;
+    right: 100px;
+    padding-top: 1%;
+    
+}
+
+.contact-button{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    top: 20px;
+    right: 10px;
+    font-size: 15px;
+    left: 20px;
+}
+
+
+.imagen-nube1{
+    height: 40%;
+    width: 20%;
+    right: 100px;
+    position: absolute;
+    top: 1px;
+
+}
+.imagen-nube2{
+    position: absolute;
+    left: 1x;
+    top: 80px;
+    height: 40%;
+    width: 20%;
+}
+
+.imagen-girasol{
+    height: 180%;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+
+/* Section About */
+
+.h2-aboutme{
+    color: #000000;
+    font-family: 'Pacifico', cursive;
+}
+
+.aboutme-title{
+    padding-right: 50%;
+
+}
+
+.iconabout{
+    color:#000000;
+    
+
+}
+.iconabout:hover{
+    color: #ffd56b;
+}
+
+.aboutme-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+/* Skill Section */
+
+#skill{
+    position: relative;
+    
+}
+
+.skill-box{
+    text-align: center;
+    padding: 5%;
+
+}
+
+.skill-title{
+    font-size: 1.5rem;
+}
+
+.icon{
+    color:#ffd56b;
+    margin-bottom: 1rem;
+    padding-top: 5%;
+    
+}
+
+.icon:hover{
+    color: #000000; 
+}
+
+
+
+
+/* Section Portfolio */
+
+.portfolio-title{
+    color: #ffffff;
+
+}
+.iconport{
+    color: #ffffff;
+    margin-bottom: 1rem;
+    padding-top: 3%;
+    
+}
+
+.iconport:hover{
+    color: #000000;
+}
+
+.title-port{
+
+    padding: 3% 15% 7%;
+}
+
+.portfolio-title{
+    font-family: 'Pacifico', cursive;
+
+}
+
+.h3-port{
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+
+/*Contact me Section */
+
+.contactame-title{
+    font-family: 'Pacifico', cursive;
+
+}
+
+.contactme-button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    right: 570px;
+}
+
+
+/* Section footer */
+
+.social-icon{
+    margin: 20px 10px;
+
+}
