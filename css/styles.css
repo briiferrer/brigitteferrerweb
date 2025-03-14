@@ -222,43 +222,6 @@ p{
 
 
 
-
-/* Section Portfolio */
-
-.portfolio-title{
-    color: #ffffff;
-
-}
-.iconport{
-    color: #ffffff;
-    margin-bottom: 1rem;
-    padding-top: 3%;
-    
-}
-
-.iconport:hover{
-    color: #000000;
-}
-
-.title-port{
-
-    padding: 3% 15% 7%;
-}
-
-.portfolio-title{
-    font-family: 'Pacifico', cursive;
-
-}
-
-.h3-port{
-    font-family: 'Pacifico', cursive;
-}
-
-
-
-
-
-
 /*Contact me Section */
 
 .contactame-title{
@@ -276,30 +239,3 @@ p{
 
 
 /* Section footer */
-
-footer .container-fluid {
-  text-align: center;
-  padding: 3% 15% 7%;
-}
-
-.social-icons {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-footer .social-icon {
-  margin: 0 10px;
-  font-size: 24px;
-  display: inline-block;
-}
-
-footer p {
-  text-align: center;
-  margin: 10px auto;
-}
-
-footer .float-end {
-  display: block;
-  text-align: center;
-  margin: 10px 0;
-}
