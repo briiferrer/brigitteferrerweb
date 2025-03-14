@@ -274,7 +274,18 @@ p{
 
 /* Section footer */
 
-.social-icon{
-    margin: 20px 10px;
+footer .container-fluid {
+  text-align: center;
+  padding: 20px 0;
+}
 
+footer .social-icon {
+  margin: 0 10px;
+  font-size: 24px;
+  display: inline-block;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
