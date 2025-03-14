@@ -141,52 +141,46 @@
           </div>
 
   <!-- Contact -->
-
   <section class="double-section" id="contact">
+      <div class="container-fluid">
     
-  <div class="container-fluid">
-
-
-    <h1 class="contactame-title">Contact me</h1>
-    <p>I am interested in freelance opportunities. However, if you have other request or question, do hesitate to contact me using below form either.</p>
+        <!-- Título de Contacto -->
+        <h1 class="contactame-title">Contact me</h1>
+        <p>I am interested in freelance opportunities. However, if you have other request or question, do hesitate to contact me using below form either.</p>
+        
+        <!-- Información de Contacto -->
+        <div class="inf-contac">
+          <p>Caracas, Venezuela,<br/>
+             @: brigitteferrerweb@gmail.com
+          </p>
+        </div>
     
-    <div class="inf-contac">
-      Caracas, Venezuela,<br/>
-       @: brigitteferrerweb@gmail.com
-    </div>
-    <hr>
-    <div class="contact-form">
-      <form id="contact" autocomplete="off" action="mailto:brigitteferrerweb@gmail.com" method="post" enctype="text/plain">
-      <ul>
-        <i class="far fa-user"></i>
-          <p class="half">
-
-              <input class="input__field input__field--hoshi" placeholder="Name" type="text" name="name" />
-              <label class="input__label input__label--hoshi input__label--hoshi-color-2" ></label>
-
-          </p>
-          <i class="far fa-envelope-open"></i>
-          <p class="half">
-              <input class="input__field input__field--hoshi" placeholder="Email" type="email" name="email" />
-              <label class="input__label input__label--hoshi input__label--hoshi-color-2" ></label>
-          </p>
-          <i class="far fa-edit"></i>
-          <p>
-              <textarea class="input__field input__field--hoshi" placeholder="Message" name="msg"></textarea>
-              <label class="input__label input__label--hoshi input__label--hoshi-color-2" ></label>
-          </p>
-          <p class="submit">
-              <input type="hidden" name="ip" value="87.11.50.115"></input>
-              <button type="submit" class="btn btn-outline-dark btn-lg contactme-button" value="SEND">Send <i class="fas fa-paper-plane"></i></button>
-          </p>
-      </ul>
-      </form>
-
-  </div>
-</div>
-
+        <hr>
     
+        <!-- Formulario de Contacto -->
+        <div class="contact-form">
+          <form id="contact" autocomplete="off" action="mailto:brigitteferrerweb@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="name"><i class="far fa-user"></i></label>
+              <input class="input__field input__field--hoshi form-control" placeholder="Name" type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+              <label for="email"><i class="far fa-envelope-open"></i></label>
+              <input class="input__field input__field--hoshi form-control" placeholder="Email" type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="msg"><i class="far fa-edit"></i></label>
+              <textarea class="input__field input__field--hoshi form-control" placeholder="Message" id="msg" name="msg"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-outline-dark btn-lg contactme-button">Send <i class="fas fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
 </section>
+
 
 
   <!-- Footer -->
