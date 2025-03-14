@@ -237,5 +237,28 @@ p{
     right: 570px;
 }
 
+/* Footer container general styles */
+footer .container-fluid {
+  text-align: center; /* Asegura que todo el contenido esté centrado */
+  padding: 20px 0;
+}
+
+/* Social icons alignment */
+footer .social-icons {
+  margin-bottom: 15px; /* Añade espacio inferior a los íconos */
+  text-align: center;
+}
+
+footer .social-icon {
+  margin: 0 10px; /* Espaciado uniforme entre íconos */
+  font-size: 24px; /* Tamaño de íconos */
+}
+
+/* Footer text alignment */
+footer p {
+  text-align: center; /* Centra los textos */
+  margin: 10px auto; /* Espaciado superior e inferior uniforme */
+}
+
 
 /* Section footer */
