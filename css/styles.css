@@ -236,11 +236,17 @@ p{
   position: relative; /* Necesario para posicionar elementos hijos, si es el caso */
 }
 
-.contactme-button {
-  position: static; /* Elimina el posicionamiento absoluto */
-  width: 100px;
-  height: 40px;
-  font-size: 15px;
+.social-icons {
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra los íconos horizontalmente */
+  align-items: center; /* Alinea los íconos verticalmente */
+  gap: 15px; /* Añade espacio uniforme entre los íconos */
+}
+
+contact-form .social-icon {
+  font-size: 24px; /* Tamaño de los íconos */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #000; /* Color del ícono (puedes cambiarlo) */
 }
 
 /* Footer General */
@@ -261,18 +267,6 @@ footer .container-fluid {
   justify-content: center; /* Opcional: centra verticalmente */
   padding: 20px 0; /* Espaciado vertical */
   text-align: center; /* Centra el texto dentro de los elementos */
-}
-.social-icons {
-  display: flex; /* Activa Flexbox */
-  justify-content: center; /* Centra los íconos horizontalmente */
-  align-items: center; /* Alinea los íconos verticalmente */
-  gap: 15px; /* Añade espacio uniforme entre los íconos */
-}
-
-footer .social-icon {
-  font-size: 24px; /* Tamaño de los íconos */
-  text-decoration: none; /* Elimina el subrayado de los enlaces */
-  color: #000; /* Color del ícono (puedes cambiarlo) */
 }
 /* Textos del Footer */
 .float-end {
