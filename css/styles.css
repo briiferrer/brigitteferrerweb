@@ -277,6 +277,11 @@ p{
 
 /* Section footer */
 
+footer .container-fluid {
+  text-align: center;
+  padding: 3% 15% 7%;
+}
+
 .social-icons {
   text-align: center;
   margin-bottom: 10px;
