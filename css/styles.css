@@ -246,29 +246,29 @@ footer .container-fluid {
 }
 
 /* Footer General */
-footer {
+footer .container-fluid {
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  margin: 0 auto; /* Centra horizontalmente todo el contenido */
+  text-align: center; /* Centra el texto dentro del contenedor */
+  padding: 20px 0; /* Añade espacio vertical */
   display: flex; /* Activa flexbox */
-  flex-direction: column; /* Coloca los elementos uno debajo del otro */
+  flex-direction: column; /* Coloca elementos en columna */
   align-items: center; /* Centra los elementos horizontalmente */
-  justify-content: center; /* Centra los elementos verticalmente (si es necesario) */
-  text-align: center; /* Asegura que el texto quede centrado */
-  padding: 20px 0; /* Espaciado interno */
-  background-color: #ffffff; /* Blanco de fondo */
 }
-
-/* Social Icons */
-footer .social-icons {
-  display: flex; /* Flexbox para alinear los íconos */
-  gap: 15px; /* Espaciado entre los íconos */
+.social-icon {
+  margin: 0 10px; /* Espaciado entre los íconos */
+  font-size: 24px; /* Tamaño de los íconos */
+  display: inline-block; /* Asegura un comportamiento uniforme */
+  color: #000; /* Color de los íconos */
 }
-
-footer .social-icon {
-  font-size: 24px; /* Tamaño de íconos */
-  color: #000; /* Color del ícono */
-}
-
-/* Textos del Footer */
 footer p {
   margin: 10px 0; /* Espaciado uniforme */
-  text-align: center; /* Asegura que el texto esté centrado */
+  text-align: center; /* Centra el texto */
 }
+.float-end {
+  text-align: center; /* Asegura que también quede centrado */
+  display: block; /* Cambia el comportamiento flotante */
+  margin-top: 10px; /* Añade espacio encima si es necesario */
+}
+
+
