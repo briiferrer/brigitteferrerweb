@@ -253,7 +253,7 @@ footer .container-fluid {
   text-align: center; /* Centra el texto dentro de los elementos */
 }
 .social-icon {
-  display: inline-block; /* Asegura que los íconos estén en línea */
+  display: flex; /* Asegura que los íconos estén en línea */
   margin: 0 10px; /* Espaciado horizontal entre íconos */
   font-size: 24px; /* Tamaño de los íconos */
   color: #000; /* Color del ícono */
