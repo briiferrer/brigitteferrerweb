@@ -237,30 +237,32 @@ p{
     right: 570px;
 }
 
-/* Footer container general styles */
+/* Footer General */
 footer .container-fluid {
-  width: 100%; /* Asegura que ocupa todo el ancho */
-  margin: 0 auto; /* Centra horizontalmente el contenido */
-  text-align: center; /* Centra todo el contenido dentro */
-  padding: 20px 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
-/* Social icons alignment */
+/* Social Icons */
 .social-icons {
-  display: flex; /* Flexbox para alinear */
-  justify-content: center; /* Centra los íconos */
-  gap: 15px; /* Espaciado entre los íconos */
-  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
 }
 
 footer .social-icon {
-  font-size: 24px; /* Tamaño de íconos */
-  color: #000;
+  font-size: 24px; /* Ajusta el tamaño de los íconos */
+  color: #000; /* Color predeterminado (puedes personalizar) */
 }
 
+/* Footer Text */
 footer p {
-  text-align: center; /* Centra el texto */
-  margin: 10px 0; /* Espaciado uniforme superior e inferior */
+  text-align: center;
+  margin: 10px auto;
 }
 
 /* Section footer */
