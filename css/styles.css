@@ -257,21 +257,13 @@ footer .container-fluid {
   text-align: center; /* Centra el texto dentro de los elementos */
 }
 
-/* Agrupación horizontal de los íconos sociales */
-.social-icons {
-  display: flex; /* Activa Flexbox */
-  justify-content: center;
-  align-items: center;
-  gap: 15px; /* Espaciado entre los íconos */
-  margin-bottom: 15px;
+.social-icon {
+  display: inline-block; /* Asegura que los íconos estén en línea */
+  margin: 0 10px; /* Espaciado horizontal entre íconos */
+  font-size: 24px; /* Tamaño de los íconos */
+  color: #000; /* Color del ícono */
 }
 
-/* Estilo de los íconos */
-footer .social-icon {
-  font-size: 24px;
-  text-decoration: none;
-  color: #000;
-}
 
 /* Textos del Footer */
 .float-end {
