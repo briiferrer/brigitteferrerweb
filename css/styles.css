@@ -229,12 +229,18 @@ p{
 
 }
 
-.contactme-button{
-    position: absolute;
-    width: 100px;
-    height: 40px;
-    font-size: 15px;
-    right: 570px;
+.contact-form {
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente el botón */
+  align-items: center; /* Opcional: centra verticalmente */
+  position: relative; /* Necesario para posicionar elementos hijos, si es el caso */
+}
+
+.contactme-button {
+  position: static; /* Elimina el posicionamiento absoluto */
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
 }
 
 /* Footer General */
