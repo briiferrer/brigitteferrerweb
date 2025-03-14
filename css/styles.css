@@ -245,24 +245,30 @@ footer .container-fluid {
   text-align: center;
 }
 
+/* Footer General */
+footer {
+  display: flex; /* Activa flexbox */
+  flex-direction: column; /* Coloca los elementos uno debajo del otro */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente (si es necesario) */
+  text-align: center; /* Asegura que el texto quede centrado */
+  padding: 20px 0; /* Espaciado interno */
+  background-color: #ffffff; /* Blanco de fondo */
+}
+
 /* Social Icons */
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin: 15px 0;
+footer .social-icons {
+  display: flex; /* Flexbox para alinear los íconos */
+  gap: 15px; /* Espaciado entre los íconos */
 }
 
 footer .social-icon {
-  font-size: 24px; /* Ajusta el tamaño de los íconos */
-  color: #000; /* Color predeterminado (puedes personalizar) */
+  font-size: 24px; /* Tamaño de íconos */
+  color: #000; /* Color del ícono */
 }
 
-/* Footer Text */
+/* Textos del Footer */
 footer p {
-  text-align: center;
-  margin: 10px auto;
+  margin: 10px 0; /* Espaciado uniforme */
+  text-align: center; /* Asegura que el texto esté centrado */
 }
-
-/* Section footer */
