@@ -237,40 +237,32 @@ p{
     right: 570px;
 }
 
-/* Footer General */
-footer .container-fluid {
-  width: 100%;
-  padding: 0;
+#footer {
   margin: 0;
-  text-align: center;
+  padding: 0;
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  text-align: center; /* Centra todo el texto dentro del footer */
+  display: block; /* Evita conflictos con Flexbox u otras reglas */
 }
-
-/* Footer General */
 footer .container-fluid {
-  display: flex; /* Usar Flexbox para la alineación */
-  flex-direction: column; /* Organizar elementos verticalmente */
-  align-items: center; /* Centrar horizontalmente */
-  justify-content: center; /* Centrar verticalmente */
-  text-align: center; /* Centrar texto dentro de cada elemento */
-  width: 100%; /* Asegurar que ocupe todo el ancho */
-  margin: 0; /* Eliminar márgenes adicionales */
-  padding: 20px 0; /* Espaciado superior e inferior */
+  display: flex; /* Activa Flexbox */
+  flex-direction: column; /* Organiza los elementos verticalmente */
+  align-items: center; /* Centra todos los elementos horizontalmente */
+  justify-content: center; /* Opcional: centra verticalmente */
+  padding: 20px 0; /* Espaciado vertical */
+  text-align: center; /* Centra el texto dentro de los elementos */
 }
 .social-icon {
+  display: inline-block; /* Asegura que los íconos estén en línea */
   margin: 0 10px; /* Espaciado horizontal entre íconos */
   font-size: 24px; /* Tamaño de los íconos */
-  display: inline-block; /* Asegura que no ocupen líneas separadas */
-  color: #000; /* Color de los íconos */
+  color: #000; /* Color del ícono */
 }
-footer p {
-  margin: 10px 0; /* Espaciado uniforme superior e inferior */
-  text-align: center; /* Centrar todos los textos */
+.float-end {
+  display: block; /* Cambia el comportamiento flotante */
+  text-align: center; /* Centra el texto */
+  margin-top: 10px; /* Espaciado superior */
 }
 
-footer .float-end {
-  display: block; /* Reemplaza el comportamiento flotante */
-  text-align: center; /* Centra el enlace "Back to top" */
-  margin-top: 10px; /* Espacio superior opcional */
-}
 
 
