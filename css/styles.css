@@ -239,20 +239,22 @@ p{
 
 /* Footer General */
 #footer {
-  background-color: #ffffff;
-  padding: 20px 0;
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  text-align: center; /* Centra todo el texto dentro del footer */
+  display: block; /* Evita conflictos con Flexbox u otras reglas */
 }
+
 
 /* Contenedor principal del footer */
 footer .container-fluid {
   display: flex; /* Activa Flexbox */
-  flex-direction: column; /* Ordena los elementos en columna */
-  align-items: center; /* Centra los elementos horizontalmente */
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  flex-direction: column; /* Organiza los elementos verticalmente */
+  align-items: center; /* Centra todos los elementos horizontalmente */
+  justify-content: center; /* Opcional: centra verticalmente */
+  padding: 20px 0; /* Espaciado vertical */
+  text-align: center; /* Centra el texto dentro de los elementos */
 }
 
 /* Agrupación horizontal de los íconos sociales */
@@ -272,10 +274,12 @@ footer .social-icon {
 }
 
 /* Textos del Footer */
-footer p {
-  margin: 10px 0;
-  text-align: center;
+.float-end {
+  display: block; /* Cambia el comportamiento flotante */
+  text-align: center; /* Centra el texto */
+  margin-top: 10px; /* Espaciado superior */
 }
+
 
 
 
