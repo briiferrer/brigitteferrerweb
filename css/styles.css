@@ -282,6 +282,11 @@ footer .container-fluid {
   padding: 20px 0;
 }
 
+.social-icons {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 footer .social-icon {
   margin: 0 10px;
   font-size: 24px;
@@ -289,6 +294,12 @@ footer .social-icon {
 }
 
 footer p {
-  margin-top: 10px;
-  margin-bottom: 0;
+  text-align: center;
+  margin: 10px auto;
+}
+
+footer .float-end {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
 }
